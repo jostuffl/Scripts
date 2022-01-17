@@ -27,7 +27,7 @@ write-host "Are you sure you want to delete all $($Quarantine.count)? (y/n)" -Ba
 $Answer = read-host  
 
 if ($Answer -eq "y"){
-    Delete-QuarantineMessage -Identities $Quarantine -Identity 000 -force
+    Delete-QuarantineMessage -Identities $Quarantine -Identity 000
 }
 
 else{
