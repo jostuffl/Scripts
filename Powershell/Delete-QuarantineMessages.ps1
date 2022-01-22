@@ -34,3 +34,5 @@ else{
     write-host "User entered 'n' for No, or any other key other than 'y'. Cancelling" -BackgroundColor Black -ForegroundColor Yellow
 }
 
+# Disconnect from Exchange Online
+Disconnect-ExchangeOnline
